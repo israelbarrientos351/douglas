@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Douglas Construciones | Construcción Profesional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <span class="logo-icon">🏗️</span>
+                <h1 class="logo">Douglas Construcciones</h1>
+            </div>
+            <nav class="nav-mobile">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Edificamos tu Futuro</h2>
+            <p class="hero-subtitle">Construcción Profesional de Calidad Superior</p>
+            <button class="btn-cta" onclick="scrollToSection('contacto')">Solicita un Presupuesto</button>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        
+        <div class="servicios-grid">
+            
+            <div class="service-card" style="--delay: 0s">
+                <div class="service-icon">🧱</div>
+                <h3>Albañilería</h3>
+                <p>Trabajos de mampostería, paredes, pisos y acabados de calidad superior.</p>
+            </div>
+
+            <div class="service-card" style="--delay: 0.1s">
+                <div class="service-icon">🏠</div>
+                <h3>Construcción de Viviendas</h3>
+                <p>Edificación completa de casas desde cimientos hasta acabados finales.</p>
+            </div>
+
+            <div class="service-card" style="--delay: 0.2s">
+                <div class="service-icon">🔨</div>
+                <h3>Reformas y Remodelaciones</h3>
+                <p>Actualiza tus espacios con diseños modernos y materiales de primera.</p>
+            </div>
+
+            <div class="service-card" style="--delay: 0.3s">
+                <div class="service-icon">🪟</div>
+                <h3>Acabados Especiales</h3>
+                <p>Revestimientos, pintura, ceramica y detalles que marcan la diferencia.</p>
+            </div>
+
+            <div class="service-card" style="--delay: 0.4s">
+                <div class="service-icon">🏗️</div>
+                <h3>Estructuras Metálicas</h3>
+                <p>Diseño e instalación de estructuras resistentes con acero de calidad.</p>
+            </div>
+
+            <div class="service-card" style="--delay: 0.5s">
+                <div class="service-icon">👷</div>
+                <h3>Consultoría Técnica</h3>
+                <p>Asesoramiento en proyectos, presupuestos realistas y plazos exactos.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROYECTOS / GALERÍA -->
+    <section id="proyectos" class="proyectos">
+        <h2 class="section-title">Nuestros Proyectos</h2>
+        
+        <div class="proyectos-grid">
+            
+            <div class="proyecto-card">
+                <div class="proyecto-img" style="background: linear-gradient(135deg, #ff6b6b, #ee5a6f);"></div>
+                <div class="proyecto-info">
+                    <h3>Casa Residencial - Sector Norte</h3>
+                    <p>Vivienda unifamiliar de 120m²</p>
+                    <span class="proyecto-tag">Completado</span>
+                </div>
+            </div>
+
+            <div class="proyecto-card">
+                <div class="proyecto-img" style="background: linear-gradient(135deg, #4facfe, #00f2fe);"></div>
+                <div class="proyecto-info">
+                    <h3>Reforma Integral Departamento</h3>
+                    <p>Remodelación completa interior</p>
+                    <span class="proyecto-tag">En Proceso</span>
+                </div>
+            </div>
+
+            <div class="proyecto-card">
+                <div class="proyecto-img" style="background: linear-gradient(135deg, #43e97b, #38f9d7);"></div>
+                <div class="proyecto-info">
+                    <h3>Construcción Bloque Viviendas</h3>
+                    <p>10 unidades habitacionales</p>
+                    <span class="proyecto-tag">Completado</span>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <h2 class="section-title">Contáctanos</h2>
+        
+        <div class="contacto-content">
+            <div class="contacto-info">
+                <div class="info-item">
+                    <h4>📞 Teléfono</h4>
+                    <p>60677993</p>
+                </div>
+                <div class="info-item">
+                </div>
+                <div class="info-item">
+                </div>
+            </div>
+
+            <form class="contacto-form" id="form-contacto">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="tel" placeholder="Tu Teléfono" required>
+                <textarea placeholder="Cuéntanos tu proyecto..." rows="4" required></textarea>
+                <button type="submit" class="btn-submit">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2025 ConstructaSur - Construcción Profesional</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
